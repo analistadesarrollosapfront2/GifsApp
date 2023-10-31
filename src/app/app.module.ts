@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 
 // Modules
 import { SharedModuleTs } from './shared/shared.module';
+import { GifsModule } from './gifs/gifs.module';
 
 
 
@@ -17,7 +18,8 @@ import { SharedModuleTs } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
-    SharedModuleTs
+    SharedModuleTs,
+    GifsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
